@@ -1,7 +1,7 @@
 Feature: Home Page
 
     Scenario: Check title
-        Given I am on home page
+        Given Idsds am on home page
         Then I see in title "Playwright"
 
     Scenario: Check get started

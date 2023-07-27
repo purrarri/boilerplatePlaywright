@@ -15,3 +15,5 @@ When('I click link {string}', async ({ page }, name: string) => {
 Then('I see in title {string}', async ({ page }, text: string) => {
   await expect(page).toHaveTitle(new RegExp(text));
 });
+
+
